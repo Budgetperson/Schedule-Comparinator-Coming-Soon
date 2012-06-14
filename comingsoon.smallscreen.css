@@ -1,0 +1,35 @@
+body {
+	width: 600px;
+}
+#title1 {
+	left: 188px;
+	
+	font-size: 108px;
+}
+#title2 {
+	top: 53px;
+	
+	font-size: 127px;
+}
+#titlesep {
+	top: 218px;
+	width: 450px;
+}
+#text2012 {
+	top: 180px;
+	left: 465px;
+	width: 188px;
+	
+	font-size: 75px;
+	letter-spacing: -8px;
+}
+#container {
+	top: 255px;
+}
+#authors {
+	font-size: 27px;
+	word-spacing: 2px;
+}
+.threecol p {
+	font-size: 12px;
+}

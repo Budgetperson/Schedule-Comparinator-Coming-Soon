@@ -1,0 +1,220 @@
+@import url(http://fonts.googleapis.com/css?family=Monsieur+La+Doulaise);
+@import url(font/roboto/stylesheet.css);
+
+.nosel {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	
+	background: #eee; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI0NyUiIHN0b3AtY29sb3I9IiNmNmY2ZjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYWFhYWFhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(170,170,170,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(170,170,170,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(170,170,170,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(170,170,170,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(170,170,170,1) 100%); /* IE10+ */
+	background: radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(170,170,170,1) 100%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-8 fallback on horizontal gradient */
+
+	/* Added by Max */
+	background-attachment: fixed;
+	background-repeat: none;
+}
+
+#title1, #title2 {
+	position: absolute;
+	font-family: 'Monsieur La Doulaise', cursive;
+	
+	text-shadow: /* plain shadow: */ 2px 2px 8px #444, /* for inset effect: */ rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+}
+
+#title1 {
+	top: 0;
+	left: 31.25%; /* 250px/800px */
+	
+	font-size: 144px;
+}
+
+#title2 {
+	top: 8.75%; /* 70px/800px */
+	left: 0;
+	
+	font-size: 169px;
+}
+
+#titlesep {
+	position: absolute;
+	top: 290px;
+	width: 600px;
+	z-index: -1;
+}
+
+#text2012 {
+	position: absolute;
+	top: 240px;
+	left: 620px;
+	width: 250px; /* required for spacing hack */
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg); /* IE 9 */
+	-webkit-transform: rotate(-10deg); /* Safari and Chrome */
+	-o-transform: rotate(-10deg); /* Opera */
+	-moz-transform: rotate(-10deg); /* Firefox */
+	z-index: 10; /*-1;*/
+	
+	font-size: 100px;
+	font-family: 'RobotoBlack', sans-serif;
+	color: #ff0;
+	opacity: 0.8; /*1.0;*/
+	letter-spacing: -10px;
+	/*text-shadow: 0px 5px 20px #ddd;*/
+
+	/* Added by Max (experimental) * /
+	-webkit-text-stroke: 3px #000;
+	-webkit-text-stroke-fill-color: #fff;*/
+	text-shadow:	0px  8px 20px #666,
+	/* outline: */	0px  3px  0px #000,
+					3px  0px  0px #000,
+					0px -3px  0px #000,
+					-3px 0px  0px #000,
+					2.12132px  2.12132px  0px #000,
+					-2.12132px 2.12132px  0px #000,
+					2.12132px  -2.12132px 0px #000,
+					-2.12132px -2.12132px 0px #000;
+}
+
+#container {
+	position: absolute;
+	top: 340px;
+}
+
+#authors {
+	width: 100%;
+	
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 36px;
+	color: #888;
+
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+#authors td {
+	margin: 0;
+	padding: 0;
+	
+	text-shadow: 0px 1px 1px #fff;
+}
+#max {
+	text-align: center;
+}
+#xuming {
+	text-align: right;
+}
+
+#desc {
+	font-family: 'RobotoThin', sans-serif;
+	font-size: 22px;
+	line-height: 1.2;
+	text-align: justify;
+}
+
+#signup {
+	top: 500px;
+}
+
+#signup div {
+	margin-left: auto;
+	margin-right: auto;
+	
+	text-align: center;
+}
+
+#signup-text {
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 24px;
+}
+
+#email-label {
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 20px;
+	margin-right: 8px;
+}
+
+#email {
+	height: 26px;
+	width: 300px;
+	
+	border: 1px solid #aaa;
+	background: #fff;
+	box-shadow: inset 0px 0px 8px #ccc;
+	border-radius: 2px;
+	
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 20px;
+}
+#email:focus {
+	box-shadow: inset 0px 0px 8px #aaa;
+	border: 1px solid #888;
+}
+
+#disc {
+	font-family: 'RobotoThin', sans-serif;
+	font-size: 12px;
+}
+
+#error {
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 14px;
+	color: #f00;
+}
+
+.threecol {
+	position: relative;
+	float: left;
+	width: 33%;
+}
+
+.threecol h3 {
+	font-family: 'RobotoThin', sans-serif;
+	font-size: 20px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #444;
+	text-align: center;
+}
+
+.threecol p {
+	margin: 0 8px;
+	
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+#footer {
+	width: 100%;
+	clear: both;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 10px;
+	text-align: center;
+	line-height: 1.2;
+	text-shadow: 0px 1px 1px #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #44f;
+}
