@@ -62,14 +62,14 @@ $error = 'Please enter a valid email address below.';
 					<span id="email-label">Email:</span><input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 					<input type="submit" id="submit" class="g-button blue" name="subscribe" id="mc-embedded-subscribe" value="Remind me!"><br>
 
-					<span id="disc">Your email will never be given away to anyone. We are not evil :).</span>
+					<span id="disc">Enter your email to be notified on launch. No worries, we won't spam you :).</span>
 				</div>
 			</form>
 			<div id="social">
 				<div class="fb-like" data-send="false" data-layout="button_count" data-width="10" data-show-faces="false" data-action="like" data-font="arial"></div>
 				<div class="g-plusone" data-size="medium"></div>
 				<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="horizontal">Tweet</a>
-				<a href="http://www.tumblr.com/share/link?url=<?php echo urlencode('http://schedulecomparinator.com/') ?>&name=<?php echo urlencode('Schedule Comparinator') ?>&description=<?php echo urlencode('It\'s an easier way to compare schedules!') ?>" title="Share on Tumblr" style="line-height: 200px; display:inline-block; text-indent:-9999px; overflow:hidden; width:129px; height:20px; background:url('http://platform.tumblr.com/v1/share_3.png') top left no-repeat transparent;">Share on Tumblr</a>
+				<a href="http://www.tumblr.com/share/link?url=<?php echo urlencode('http://schedulecomparinator.com/') ?>&name=<?php echo urlencode('Schedule Comparinator') ?>&description=<?php echo urlencode('It\'s an easier way to compare schedules!') ?>" title="Share on Tumblr" style="line-height: 200px; display:inline-block; text-indent:-9999px; overflow:hidden; width:129px; height:20px; background:url('http://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;">Share on Tumblr</a>
 			</div>
 			<div class="threecol">
 				<h3>WHAT IS THIS?</h3>
