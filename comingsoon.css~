@@ -40,13 +40,13 @@ body {
 
 #title1 {
 	top: 0;
-	left: 31.25%; /* 250px/800px */
+	left: 250px;
 	
 	font-size: 144px;
 }
 
 #title2 {
-	top: 8.75%; /* 70px/800px */
+	top: 70px;
 	left: 0;
 	
 	font-size: 169px;
@@ -143,6 +143,8 @@ body {
 	font-family: 'RobotoLight', sans-serif;
 	font-size: 24px;
 }
+
+.connect_widget_not_connected_text { display:none !important; }
 
 #email-label {
 	font-family: 'RobotoLight', sans-serif;

@@ -53,7 +53,7 @@ $error = 'Please enter a valid email address below.';
 			<table id="authors"><tbody><tr><td id="yash">YASH AGGARWAL</td><td id="max">MAX CIOTTI</td><td id="xuming">XUMING ZENG</td></tr></tbody></table>
 			<div id="desc">Schedule Comparinator 2012 is a free service that allows you to compare your schedule for this coming year with everybody else without spamming everybody's Facebook newsfeed. We are currently working very hard to make this service the best possible experience, and it will be available for public use shortly. This will only work if you tell all of your friends, so please share!</div>
 			<div id="social">
-				<div class="fb-like" data-send="false" data-layout="default" data-width="450" data-show-faces="true" data-action="recommend" data-font="arial"></div>
+				<div class="fb-like" data-send="false" data-layout="button_count" data-width="10" data-show-faces="false" data-action="like" data-font="arial"></div>
 				<div class="g-plusone" data-size="medium"></div>
 				<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="horizontal">Tweet</a>
 				<a href="http://www.tumblr.com/share/link?url=<?php echo urlencode('http://schedulecomparinator.com/') ?>&name=<?php echo urlencode('Schedule Comparinator') ?>&description=<?php echo urlencode('It\'s an easier way to compare schedules!') ?>" title="Share on Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:129px; height:20px; background:url('http://platform.tumblr.com/v1/share_3.png') top left no-repeat transparent;">Share on Tumblr</a>
