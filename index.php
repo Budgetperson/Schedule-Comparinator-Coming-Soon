@@ -11,6 +11,7 @@ $error = 'Please enter a valid email address below.';
 		<meta charset="utf8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta itemprop="name" content="Schedule Comparinator">
+<meta name="google-site-verification" content="Sx7DClwrkz_sbo94k3eVctKfrVeLeiB5SrN4wqkU5zY" />
 		<meta itemprop="description" content="A more convenient way to compare schedules">
 		
 		<link rel="stylesheet" type="text/css" href="comingsoon.css">
