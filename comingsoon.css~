@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Monsieur+La+Doulaise);
 @import url(font/roboto/stylesheet.css);
 
 .nosel {
@@ -162,44 +163,40 @@ a {
 }
 
 /* small screen rules, where window width <= 800px */
-@media screen and (max-width: 800px) {
-	body {
-		width: 600px;
-	}
-	.threecol h3 {
-		font-size: 18px;
-	}
-	.threecol p {
-		font-size: 12px;
-	}
+body.sm {
+	width: 600px;
+}
+body.sm .threecol h3 {
+	font-size: 18px;
+}
+body.sm .threecol p {
+	font-size: 12px;
 }
 
 /* mobile rules, where window width <= 600 */
-@media screen and (max-width: 600px) {
-	body {
-		width: 100%;
-		background: #eee;
-	}
+body.m {
+	width: 100%;
+	background: #eee;
+}
 
-	#container {
-		padding: 8px;
-	}
+body.m #container {
+	padding: 8px;
+}
 
-	#signup div {
-		margin: 0 0 0 0;
-		text-align: left;
-	}
-	#mce-EMAIL {
-		width: 140px;
-	}
+body.m #signup div {
+	margin: 0 0 0 0;
+	text-align: left;
+}
+body.m #mce-EMAIL {
+	width: 140px;
+}
 
-	.threecol {
-		float: none;
-		width: 100%;
-	}
+body.m .threecol {
+	float: none;
+	width: 100%;
+}
 
-	footer {
-		margin: auto 0;
-		padding: 0;
-	}
+body.m footer {
+	margin: auto 0;
+	padding: 0;
 }
